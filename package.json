@@ -1,12 +1,13 @@
 {
-  "name": "xiaohongshu-mcp",
+  "name": "xiaohongshu-mcp-slidev",
   "version": "1.0.0",
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build"
+    "build": "slidev build",
+    "preview": "slidev preview"
   },
-  "dependencies": {
-    "@slidev/cli": "^0.49.0",
-    "@slidev/theme-default": "^0.49.0"
+  "devDependencies": {
+    "@slidev/cli": "^0.49.11",
+    "@slidev/theme-seriph": "^0.49.11"
   }
 }
