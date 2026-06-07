@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>
+      小红书MCP转换器
+    </title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        ✨
+        小红书MCP智能排版工具
+      </h1>
+      <div class="select-box">
+        <span
+          >选择模板：</span
+        >
+        <select id="template">
+          <option
+            value="general"
+          >
+            通用干货风
+          </option>
+          <option
+            value="study"
+          >
+            学习打卡风
+          </option>
+          <option
+            value="food"
+          >
+            美食探店风
+          </option>
+        </select>
+      </div>
+      <div class="box-wrap">
+        <div
+          class="input-box"
+        >
+          <h3>
+            输入普通文案 /
+            Markdown
+          </h3>
+          <textarea
+            id="inputText"
+            placeholder="在这里输入你的内容..."
+          ></textarea>
+        </div>
+        <div
+          class="output-box"
+        >
+          <h3>
+            小红书成品效果
+          </h3>
+          <div
+            id="outputText"
+          ></div>
+          <button
+            id="copyBtn"
+          >
+            一键复制结果
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
